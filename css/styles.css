@@ -35,7 +35,7 @@ body {
     justify-content: center;
     width: 33%;
     height: 100vh;
-    background: url("/camel.jpg") center / cover no-repeat;
+    background: url("../camel.jpg") center / cover no-repeat;
 }
 
 .logo {
