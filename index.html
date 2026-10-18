@@ -9,15 +9,18 @@
 </head>
 <body>
     <section class="lhs">
-        <img src="./camel.jpg" width="500">
         <p>Photo by <a href="https://unsplash.com/@yana_yuzvenko">Yana Yuzvenko</a> on <a href="https://unsplash.com/photos/camel-standing-on-desert-B-rnDwqZ_g8">Unsplash</a></p>
     </section>
 
     <section class="rhs">
-        <p>Travel across the Great Australian Desert using our network of trusted camels and cameleers.</p>
-        <p>Unlock convenient travel between towns and cities, while taking the scenic route.</p>
-        <p>Create your account <em>now</em> to get started.</p>
-        <form>
+        <div class="message">
+            <p>
+                Travel across the Great Australian Desert using our network of trusted camels and cameleers.
+                Unlock convenient travel between towns and cities, while taking the scenic route.
+            </p>
+            <p>Create your account <em>now</em> to get started.</p>
+        </div>
+        <form id="signUp">
             <h1>Join the caravan!</h1>
             <div class="form-row">
                 <p>
@@ -49,9 +52,13 @@
                     <input type="password" id="confirmPassword" name="confirmPassword"/>
                 </p>
             </div>
-            <button type="submit">Create Account</button>
+            
         </form>
-        <p>Already have an account? <a href="">Log in</a></p>
+        <div class="bottom">
+            <button form="signUp" type="submit">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+
     </section>
 </body>
 </html>
