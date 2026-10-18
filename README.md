@@ -1,4 +1,4 @@
-# Sign-up Form
+# Parody Sign-up Form
 Note this page is not intended to be responsive for mobile.
 
 ## Why
