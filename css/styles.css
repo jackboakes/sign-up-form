@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: row;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .lhs {
@@ -46,13 +46,13 @@ body {
     padding-block: 10px;
     margin-bottom: 40px;
     font-family: special-elite;
-    font-size: clamp(24px, 4vw, 96px);
+    font-size: clamp(20px, 4vw, 96px);
     color: white;
     user-select: none;
 }
 
 .logo img {
-    height: clamp(24px, 4vw, 72px);
+    height: clamp(20px, 4vw, 72px);
     margin-inline: 10px;
 }
 
@@ -89,7 +89,7 @@ body {
 
 button {
     margin-left: 40px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     padding: 10px 40px;
     border: 0;
@@ -124,9 +124,9 @@ button {
 }
 
 .message {
-    max-width: 800px;
+    max-width: 700px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 40px;
     padding-left: 40px;
 }
@@ -144,7 +144,7 @@ form {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 input {
@@ -173,7 +173,7 @@ form h1,
 .form-row {
     display: flex;
     flex-direction: row;
-    width: 800px;
+    max-width: 700px;
 }
 
 .form-row p {
