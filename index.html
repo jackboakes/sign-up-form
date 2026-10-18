@@ -8,6 +8,50 @@
     <script src="./js/script.js" defer></script>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <section class="lhs">
+        <img src="./camel.jpg" width="500">
+        <p>Photo by <a href="https://unsplash.com/@yana_yuzvenko">Yana Yuzvenko</a> on <a href="https://unsplash.com/photos/camel-standing-on-desert-B-rnDwqZ_g8">Unsplash</a></p>
+    </section>
+
+    <section class="rhs">
+        <p>Travel across the Great Australian Desert using our network of trusted camels and cameleers.</p>
+        <p>Unlock convenient travel between towns and cities, while taking the scenic route.</p>
+        <p>Create your account <em>now</em> to get started.</p>
+        <form>
+            <h1>Join the caravan!</h1>
+            <div class="form-row">
+                <p>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required />
+                </p>
+                <p>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required />
+                </p>
+            </div>
+            <div class="form-row">
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                </p>
+                <p>
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required />
+                </p>
+            </div>
+            <div class="form-row">
+                <p>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required />
+                </p>
+                <p>
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword"/>
+                </p>
+            </div>
+            <button type="submit">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="">Log in</a></p>
+    </section>
 </body>
 </html>
